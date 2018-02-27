@@ -1,0 +1,194 @@
+*{
+margin:0px;
+padding:0px;
+border:0px;
+}
+
+body {
+font-family: 'Mukta Mahee', sans-serif;
+font-size:100%;
+
+
+}
+div#wrapper{
+
+}
+/*-------------------------------nav---------------------*/
+div#nav{
+	background:rgba(255,255,255,0.2);
+	overflow:hidden;
+	
+}
+nav{
+	font-size:120%;
+	margin:0px auto;
+	padding:5px;
+	width:1000px;
+	
+	/* position:fixed; Warum funktioniert das nicht*/
+}
+div#nav h1{
+	color:orange;
+	margin:0px auto;
+	padding:5px;
+	width:1000px;
+	
+	/* float:left; */
+}
+h1 a:link, h1 a:visited{
+	display:block;
+	padding:5px 15px;
+	text-decoration:none;
+	color:orange;
+}
+h1 a:hover, h1 a:active{
+color:white;
+background-color:orange;
+}	
+nav ul{
+	list-style:none;
+	float:right;
+}
+nav li{
+	float:left;
+
+}
+nav a:link, nav a:visited{
+	display:block;
+	padding:5px 15px;
+	text-decoration:none;
+	color:orange;
+}
+nav a:hover, nav a:active{
+color:white;
+background-color:orange;
+}
+/*-------------------------------nav---------------------*/
+
+/*-------------------------------section---------------------*/
+section{
+margin:0px auto;
+width:1000px;
+Background:#FFF9BD;
+overflow:hidden;
+color:#C76E2D
+}
+div#ko img{
+	 display: block;
+    margin:10px auto 10px auto;
+    width: 80%;
+	border:2px solid orange;
+}
+div#ko h2{
+	text-align:center;
+	margin-top:5px;
+	
+}
+div#ko p{
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:30px;
+	
+}
+div#groß{
+	margin:10px;
+	width:90%;
+	padding:10px;
+	/* float:left; */
+	border:2px solid Orange;
+	background:white;
+
+}
+div#groß a{
+	padding-left:10px; /*funktioniert auch nicht!*/
+	text-align:center;
+}
+div#mittel{
+	margin:10px;
+	width:90%;
+	padding:10px;
+	/* float:left; */
+	border:2px solid Orange;
+	background:white;
+
+}
+div#mittel a{
+	padding-left:10px; /*funktioniert auch nicht!*/
+	text-align:center;
+}
+div#studio{
+	margin:10px;
+	width:90%;
+	padding:10px;
+	/* float:left; */
+	border:2px solid Orange;
+	background:white;
+
+}
+div#studio a{
+	padding-left:10px; /*funktioniert auch nicht!*/
+	text-align:center;
+}
+section a:link, section a:visited{
+	display:block;
+	padding:5px 15px;
+	text-decoration:none;
+	color:orange;
+}
+section a:hover, section a:active{
+color:white;
+background-color:orange;
+}
+
+div#groß img{
+	display:block;
+	float:left;
+	padding-right:10px;
+}
+div#mittel img{
+	display:block;
+	float:right;
+	padding-left:10px;
+}
+ div#studio img{
+	display:block;
+	float:left;
+	padding-right:10px;
+}
+/*-------------------------------section---------------------*/
+
+/*-------------------------------footer---------------------*/
+Footer{
+	background:orange;
+	overflow:hidden;
+	
+	
+}
+div#footer{
+	width:1000px;
+	margin:auto;
+}
+footer p{
+	margin:25px 0px;
+	float:left;
+	color:white;
+}
+footer ul{
+	list-style:none;
+	float:right;
+	}
+footer li{
+	float:left;
+}
+footer a:link, footer a:visited{
+	display:block;
+	margin:25px 15px;
+	text-decoration:none;
+	color:white;
+}
+footer a:hover, footer a:active{
+color:orange;
+background-color:white;
+}
+
+/*-------------------------------footer---------------------*/
